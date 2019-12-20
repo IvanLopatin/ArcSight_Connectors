@@ -1,0 +1,18 @@
+#If you have a error to agent.log about full gc
+#add # Initial Java Heap Size (in MB) and  Maximum Java Heap Size (in MB)
+# to file /opt/arcsight/conn/current/user/agent/agent.wrapper.conf
+
+#change 
+# Initial Java Heap Size (in MB)
+wrapper.java.initmemory=256
+
+# Maximum Java Heap Size (in MB)
+wrapper.java.maxmemory=256
+
+
+#Change TO
+# Initial Java Heap Size (in MB)
+wrapper.java.initmemory=512
+
+# Maximum Java Heap Size (in MB)
+wrapper.java.maxmemory=512
