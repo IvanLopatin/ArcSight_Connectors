@@ -1,0 +1,8 @@
+#!!!PLEASE DO NOT ADD THIS PARAMETER TO YOUR CONNECTOR WITHOUT CONSULTING WITH SPECIALISTS!!!
+
+#IF your connector cashed events or your connector is high loaded(more 3k EPS)
+http.transport.threadcount=4
+http.transport.queuesize=5000
+#for syslog connector
+syslog.parser.multithreading.enabled=true
+syslog.parser.threadcount=4
